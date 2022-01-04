@@ -11,16 +11,16 @@ const REGIONS = {
 	'ap-southeast-2': [/* Oceania */ 'AS','AU','CK','FJ','FM','GU','KI','MH','MP','NC','NF','NR','NU','NZ','PF','PG','PN','PW','SB','TK','TL','TO','TV','UM','VU','WF','WS', /* Antarctica */ 'AQ', 'GS', 'TF'],
 	// Canada
 	'ca-central-1': [/* Canada */ 'CA', /*Greenland */ 'GL'],
-	// London
-	'eu-west-2': [/* United Kingdom */ 'GB', /* Ireland */ 'IE'],
 	// Frankfurt
 	'eu-central-1': [/* Europe */ 'AD','AL','AT','AX','BA','BE','BG','BY','CH','CY','CZ','DE','DK','EE','ES','FI','FO','FR','GG','GI','GR','HR','HU','IM','IS','IT','JE','LI','LT','LU','LV','MC','MD','ME','MK','MT','NL','NO','PL','PT','RO','RS','RU','SE','SI','SJ','SK','SM','TR','UA','VA','XK'],
+	// London
+	'eu-west-2': [/* United Kingdom */ 'GB', /* Ireland */ 'IE'],
 	// Bahrain
 	'me-south-1': [/* Egypt */ 'EG', /* Middle East */ 'AE','AM','AZ','BH','GE','IL','IQ','IR','JO','KW','LB','OM','PS','QA','SA','SY','TM','UZ','YE'],
 	// Sāo Paulo
 	'sa-east-1': [/* South America */ 'AR','BO','BR','CL','CO','EC','FK','GF','GY','PE','PY','SR','UY','VE'],
-	// California
-	'us-west-1': [/* North and Central America */ 'AG','AI','AW','BB','BL','BM','BQ','BS','BZ','CR','CU','CW','DM','DO','GD','GP','GT','HN','HT','JM','KN','KY','LC','MF','MQ','MS','MX','NI','PA','PM','PR','SV','SX','TC','TT','US','VC','VG','VI'],
+	// Oregon
+	'us-west-2': [/* North and Central America */ 'AG','AI','AW','BB','BL','BM','BQ','BS','BZ','CR','CU','CW','DM','DO','GD','GP','GT','HN','HT','JM','KN','KY','LC','MF','MQ','MS','MX','NI','PA','PM','PR','SV','SX','TC','TT','US','VC','VG','VI'],
 };
 
 const location = (code) => {
