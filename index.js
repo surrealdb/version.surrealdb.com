@@ -45,7 +45,7 @@ exports.main = async (event) => {
 		
 		if (region) {
 			
-			let domain = `download.${region}.surrealdb.com.s3.amazonaws.com`;
+			let domain = `download.${region}.surrealdb.com.s3.${region}.amazonaws.com`;
 
 			request.uri = '/latest.txt';
 			request.origin.s3.region = region;
